@@ -25,16 +25,16 @@
         <mxCell id="feat" value="业务功能模块（页面驱动）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;align=left;verticalAlign=top;spacingTop=8;" parent="1" vertex="1">
           <mxGeometry x="40" y="230" width="1320" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="f_wiki" value="非遗百科（内容学习）&#xa;• 传承人 / 图鉴 / 剧目&#xa;• 问答 Quiz（进度/错题/奖励）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=10;" parent="feat" vertex="1">
+        <mxCell id="f_wiki" value="非遗百科（内容学习）&#xa;• 传承人 / 图鉴 / 剧目&#xa;• 问答 Quiz（进度/错题/奖励）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;spacing=10;" parent="feat" vertex="1">
           <mxGeometry x="20" y="52" width="420" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="f_create" value="创作传播（变脸/涂装）&#xa;• 海报生成（Canvas/绘制）&#xa;• 保存相册 / 作品入库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="feat" vertex="1">
+        <mxCell id="f_create" value="创作传播（变脸/涂装）&#xa;• 海报生成（Canvas/绘制）&#xa;• 保存相册 / 作品入库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;spacing=10;" parent="feat" vertex="1">
           <mxGeometry x="460" y="52" width="420" height="88" as="geometry" />
         </mxCell>
         <mxCell id="f_trade" value="文旅市集（预约/文创）&#xa;• 预约下单 → 核销&#xa;• 文创加入商契 → 订单/物流" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="feat" vertex="1">
           <mxGeometry x="900" y="52" width="380" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="f_me" value="我的（账户与成长）&#xa;• 登录态 + 头像&#xa;• 银票（积分）/等级&#xa;• 预约/订单/藏宝阁" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6EC;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="feat" vertex="1">
+        <mxCell id="f_me" value="我的（账户与成长）&#xa;• 登录态 + 头像&#xa;• 银票（积分）/等级&#xa;• 预约/订单/藏宝阁" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;spacing=10;" parent="feat" vertex="1">
           <mxGeometry x="20" y="156" width="420" height="88" as="geometry" />
         </mxCell>
         <mxCell id="f_home" value="首页（入口聚合 + 签到）&#xa;• 自动签到回跳&#xa;• 热门文创推荐" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="feat" vertex="1">
