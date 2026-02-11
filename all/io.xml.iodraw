@@ -14,7 +14,7 @@
           <mxGeometry x="20" y="46" width="520" height="64" as="geometry" />
         </mxCell>
         <mxCell id="ui" value="视图层（WXML/WXSS） + 交互层（Page/Component）&#xa;• 页面：pages/*&#xa;• 自定义 TabBar：custom-tab-bar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="rt" vertex="1">
-          <mxGeometry x="560" y="46" width="360" height="64" as="geometry" />
+          <mxGeometry x="550" y="46" width="360" height="64" as="geometry" />
         </mxCell>
         <mxCell id="res" value="静态资源/外部图片（CDN/URL）&#xa;• 首页/百科人物图等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="rt" vertex="1">
           <mxGeometry x="940" y="46" width="360" height="64" as="geometry" />
