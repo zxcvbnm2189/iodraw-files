@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="core-flow-onepage" name="核心流程（计划书版）">
-    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="80" y="130" width="310" height="92" as="geometry" />
         </mxCell>
         <mxCell id="gate" value="登录态门控（点卯）&#xa;• 未登录：跳转登录/注册&#xa;• 登录后：redirect 回跳" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=13;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="270" y="252" width="360" height="84" as="geometry" />
+          <mxGeometry x="270" y="240" width="360" height="84" as="geometry" />
         </mxCell>
         <mxCell id="learn" value="内容学习（百科）&#xa;• 传承人/图鉴/剧目&#xa;• 知识问答（进度/错题/每日奖励）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="470" y="78" width="420" height="92" as="geometry" />
