@@ -14,7 +14,7 @@
           <mxGeometry x="40" y="140" width="360" height="92" as="geometry" />
         </mxCell>
         <mxCell id="gate" value="登录态门控（点卯）&#xa;• 未登录：跳转登录/注册&#xa;• 登录后：redirect 回跳" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#C31E1E;fontColor=#2E2E2E;fontStyle=1;fontSize=13;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="260" y="260" width="360" height="84" as="geometry" />
+          <mxGeometry x="290" y="252" width="360" height="84" as="geometry" />
         </mxCell>
         <mxCell id="learn" value="内容学习（百科）&#xa;• 传承人/图鉴/剧目&#xa;• 知识问答（进度/错题/每日奖励）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="470" y="78" width="420" height="92" as="geometry" />
@@ -26,10 +26,10 @@
           <mxGeometry x="980" y="140" width="440" height="112" as="geometry" />
         </mxCell>
         <mxCell id="me" value="个人沉淀（我的）&#xa;• 头像/昵称/会员位&#xa;• 银票（积分）+ 等级&#xa;• 预约/商契/藏宝阁/兑换" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontStyle=1;fontSize=13;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="260" y="440" width="440" height="82" as="geometry" />
+          <mxGeometry x="270" y="476" width="440" height="82" as="geometry" />
         </mxCell>
         <mxCell id="value" value="成长闭环（银票/等级）&#xa;来源：签到 + 市集预约(+20) + 百科问答奖励&#xa;去向：驱动个人中心展示与持续参与" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6EC;strokeColor=#C31E1E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="465" y="660" width="470" height="74" as="geometry" />
+          <mxGeometry x="820" y="480" width="470" height="74" as="geometry" />
         </mxCell>
         <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="1" source="home" target="learn" edge="1">
           <mxGeometry relative="1" as="geometry" />
