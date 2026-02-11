@@ -82,8 +82,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r2" value="加载" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="1" source="res" target="f_home" edge="1">
-          <mxGeometry x="0.0833" y="-6" relative="1" as="geometry">
-            <mxPoint x="6" y="-6" as="offset" />
+          <mxGeometry x="0.0612" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
