@@ -13,16 +13,16 @@
         <mxCell id="home" value="首页聚合入口&#xa;• Tab：百科 / 变脸 / 涂装 / 市集 / 我的&#xa;• 签到提示 + 热门文创" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="80" y="130" width="310" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="gate" value="登录态门控（点卯）&#xa;• 未登录：跳转登录/注册&#xa;• 登录后：redirect 回跳" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#C31E1E;fontColor=#2E2E2E;fontStyle=1;fontSize=13;spacing=10;" parent="1" vertex="1">
+        <mxCell id="gate" value="登录态门控（点卯）&#xa;• 未登录：跳转登录/注册&#xa;• 登录后：redirect 回跳" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="270" y="252" width="360" height="84" as="geometry" />
         </mxCell>
         <mxCell id="learn" value="内容学习（百科）&#xa;• 传承人/图鉴/剧目&#xa;• 知识问答（进度/错题/每日奖励）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="470" y="78" width="420" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="create" value="创作传播（变脸/涂装）&#xa;• 选素材 + 模板/效果&#xa;• 生成海报 → 保存/分享&#xa;• 作品入库（藏宝阁）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
+        <mxCell id="create" value="创作传播（变脸/涂装）&#xa;• 选素材 + 模板/效果&#xa;• 生成海报 → 保存/分享&#xa;• 作品入库（藏宝阁）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="110" y="476" width="225" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="trade" value="文旅转化（市集预约/文创）&#xa;• 预约确认 → 生成订单&#xa;• 预约列表：二维码核销/取消&#xa;• 文创：加入商契 → 订单/物流" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
+        <mxCell id="trade" value="文旅转化（市集预约/文创）&#xa;• 预约确认 → 生成订单&#xa;• 预约列表：二维码核销/取消&#xa;• 文创：加入商契 → 订单/物流" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="890" y="180" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="me" value="个人沉淀（我的）&#xa;• 头像/昵称/会员位&#xa;• 银票（积分）+ 等级&#xa;• 预约/商契/藏宝阁/兑换" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontStyle=1;fontSize=13;spacing=10;" parent="1" vertex="1">
