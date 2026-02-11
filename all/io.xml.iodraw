@@ -59,7 +59,7 @@
           <mxGeometry x="1080" y="54" width="220" height="72" as="geometry" />
         </mxCell>
         <mxCell id="store" value="本地存储（wx.storage）&#xa;• 登录态 / 用户信息&#xa;• 积分（银票）与等级&#xa;• 预约、商契、兑换记录&#xa;• 问答状态（进度/错题/账本）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6EC;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontStyle=1;fontSize=13;spacing=10;" parent="domain" vertex="1">
-          <mxGeometry x="20" y="140" width="1280" height="92" as="geometry" />
+          <mxGeometry x="20" y="150" width="1280" height="92" as="geometry" />
         </mxCell>
         <mxCell id="s1" value="读写" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#C31E1E;endArrow=block;endFill=1;" parent="domain" source="u_auth" target="store" edge="1">
           <mxGeometry relative="1" as="geometry" />
