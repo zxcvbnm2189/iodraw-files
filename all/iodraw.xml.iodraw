@@ -26,7 +26,7 @@
           <mxGeometry x="890" y="180" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="me" value="个人沉淀（我的）&#xa;• 头像/昵称/会员位&#xa;• 银票（积分）+ 等级&#xa;• 预约/商契/藏宝阁/兑换" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontStyle=1;fontSize=13;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="350" y="476" width="440" height="82" as="geometry" />
+          <mxGeometry x="360" y="450" width="440" height="82" as="geometry" />
         </mxCell>
         <mxCell id="value" value="成长闭环（银票/等级）&#xa;来源：签到 + 市集预约(+20) + 百科问答奖励&#xa;去向：驱动个人中心展示与持续参与" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6EC;strokeColor=#C31E1E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="820" y="480" width="290" height="78" as="geometry" />
