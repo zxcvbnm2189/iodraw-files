@@ -8,7 +8,7 @@
           <mxGeometry x="160" y="180" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5-pSZiajs5a_vTWfUL-C-97" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="110" width="350" height="610" as="geometry" />
+          <mxGeometry x="130" y="110" width="300" height="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
