@@ -25,7 +25,7 @@
         <mxCell id="feat" value="业务功能模块（页面驱动）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;align=left;verticalAlign=top;spacingTop=8;" parent="1" vertex="1">
           <mxGeometry x="40" y="230" width="1320" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="f_wiki" value="非遗百科（内容学习）&#xa;• 传承人 / 图鉴 / 剧目&#xa;• 问答 Quiz（进度/错题/奖励）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="feat" vertex="1">
+        <mxCell id="f_wiki" value="非遗百科（内容学习）&#xa;• 传承人 / 图鉴 / 剧目&#xa;• 问答 Quiz（进度/错题/奖励）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=10;" parent="feat" vertex="1">
           <mxGeometry x="20" y="52" width="420" height="88" as="geometry" />
         </mxCell>
         <mxCell id="f_create" value="创作传播（变脸/涂装）&#xa;• 海报生成（Canvas/绘制）&#xa;• 保存相册 / 作品入库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="feat" vertex="1">
