@@ -29,7 +29,7 @@
           <mxGeometry x="700" y="270" width="440" height="82" as="geometry" />
         </mxCell>
         <mxCell id="value" value="成长闭环（银票/等级）&#xa;来源：签到 + 市集预约(+20) + 百科问答奖励&#xa;去向：驱动个人中心展示与持续参与" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6EC;strokeColor=#C31E1E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="340" y="650" width="900" height="74" as="geometry" />
+          <mxGeometry x="770" y="650" width="470" height="74" as="geometry" />
         </mxCell>
         <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="1" source="home" target="learn" edge="1">
           <mxGeometry relative="1" as="geometry" />
