@@ -8,7 +8,7 @@
           <mxGeometry x="40" y="20" width="1160" height="48" as="geometry" />
         </mxCell>
         <mxCell id="note" value="虚线 = 需要点卯（登录）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=12;align=left;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="130" y="78" width="210" height="26" as="geometry" />
+          <mxGeometry x="140" y="90" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="home" value="首页聚合入口&#xa;• Tab：百科 / 变脸 / 涂装 / 市集 / 我的&#xa;• 签到提示 + 热门文创" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="30" y="130" width="360" height="92" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry x="40" y="466" width="250" height="102" as="geometry" />
         </mxCell>
         <mxCell id="trade" value="文旅转化（市集预约/文创）&#xa;• 预约确认 → 生成订单&#xa;• 预约列表：二维码核销/取消&#xa;• 文创：加入商契 → 订单/物流" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="880" y="180" width="310" height="112" as="geometry" />
+          <mxGeometry x="890" y="180" width="310" height="112" as="geometry" />
         </mxCell>
         <mxCell id="me" value="个人沉淀（我的）&#xa;• 头像/昵称/会员位&#xa;• 银票（积分）+ 等级&#xa;• 预约/商契/藏宝阁/兑换" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontStyle=1;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="350" y="476" width="440" height="82" as="geometry" />
