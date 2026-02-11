@@ -1,0 +1,88 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="tech-arch" name="技术架构图（小程序端）">
+    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tt" value="掌上悬丝｜小程序技术架构（当前实现：轻后端/本地存储驱动）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontStyle=1;fontSize=18;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1320" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="rt" value="微信小程序运行时（WeChat Runtime）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontStyle=1;fontSize=14;align=left;verticalAlign=top;spacingTop=8;" parent="1" vertex="1">
+          <mxGeometry x="40" y="88" width="1320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="api" value="平台能力 API&#xa;• 路由：navigateTo / switchTab / redirectTo&#xa;• 设备：getWindowInfo / pixelRatio&#xa;• 媒体：chooseImage / saveFile / 相册权限&#xa;• 文件：FileSystemManager&#xa;• 交互：Toast / Modal / Loading" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6EC;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="rt" vertex="1">
+          <mxGeometry x="20" y="46" width="520" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ui" value="视图层（WXML/WXSS） + 交互层（Page/Component）&#xa;• 页面：pages/*&#xa;• 自定义 TabBar：custom-tab-bar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="rt" vertex="1">
+          <mxGeometry x="560" y="46" width="360" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="res" value="静态资源/外部图片（CDN/URL）&#xa;• 首页/百科人物图等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="rt" vertex="1">
+          <mxGeometry x="940" y="46" width="360" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="api1" value="使用" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="rt" source="ui" target="api" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feat" value="业务功能模块（页面驱动）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontStyle=1;fontSize=14;align=left;verticalAlign=top;spacingTop=8;" parent="1" vertex="1">
+          <mxGeometry x="40" y="230" width="1320" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="f_wiki" value="非遗百科（内容学习）&#xa;• 传承人 / 图鉴 / 剧目&#xa;• 问答 Quiz（进度/错题/奖励）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="feat" vertex="1">
+          <mxGeometry x="20" y="52" width="420" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="f_create" value="创作传播（变脸/涂装）&#xa;• 海报生成（Canvas/绘制）&#xa;• 保存相册 / 作品入库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="feat" vertex="1">
+          <mxGeometry x="460" y="52" width="420" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="f_trade" value="文旅市集（预约/文创）&#xa;• 预约下单 → 核销&#xa;• 文创加入商契 → 订单/物流" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="feat" vertex="1">
+          <mxGeometry x="900" y="52" width="380" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="f_me" value="我的（账户与成长）&#xa;• 登录态 + 头像&#xa;• 银票（积分）/等级&#xa;• 预约/订单/藏宝阁" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6EC;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="feat" vertex="1">
+          <mxGeometry x="20" y="156" width="420" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="f_home" value="首页（入口聚合 + 签到）&#xa;• 自动签到回跳&#xa;• 热门文创推荐" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="feat" vertex="1">
+          <mxGeometry x="460" y="156" width="420" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="f_support" value="通用支撑&#xa;• help（帮助/指引）&#xa;• windowInfo（窗口适配）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="feat" vertex="1">
+          <mxGeometry x="900" y="156" width="380" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="domain" value="领域逻辑与数据（utils/ + Storage）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontStyle=1;fontSize=14;align=left;verticalAlign=top;spacingTop=8;" parent="1" vertex="1">
+          <mxGeometry x="40" y="510" width="1320" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="u_auth" value="authStore（登录/注册）&#xa;• users / user_info / is_login" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C31E1E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="domain" vertex="1">
+          <mxGeometry x="20" y="54" width="320" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="u_sign" value="signInStore（签到奖励）&#xa;• user_score / streak / total" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C31E1E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="domain" vertex="1">
+          <mxGeometry x="360" y="54" width="320" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="u_order" value="orderStore（预约/订单）&#xa;• my_bookings / my_goods_orders / exchange" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="domain" vertex="1">
+          <mxGeometry x="700" y="54" width="360" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="u_data" value="静态配置数据&#xa;• goodsData / wikiData / wikiQuizData&#xa;• levelConfig" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="domain" vertex="1">
+          <mxGeometry x="1080" y="54" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="store" value="本地存储（wx.storage）&#xa;• 登录态 / 用户信息&#xa;• 积分（银票）与等级&#xa;• 预约、商契、兑换记录&#xa;• 问答状态（进度/错题/账本）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6EC;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontStyle=1;fontSize=13;spacing=10;" parent="domain" vertex="1">
+          <mxGeometry x="20" y="140" width="1280" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" value="读写" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#C31E1E;endArrow=block;endFill=1;" parent="domain" source="u_auth" target="store" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="读写" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#C31E1E;endArrow=block;endFill=1;" parent="domain" source="u_sign" target="store" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="读写" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="domain" source="u_order" target="store" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" value="调用" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="1" source="ui" target="feat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" value="读写" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="1" source="feat" target="domain" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" value="加载" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="1" source="res" target="f_wiki" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" value="加载" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="1" source="res" target="f_home" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
