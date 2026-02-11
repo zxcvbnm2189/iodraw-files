@@ -10,7 +10,7 @@
         <mxCell id="rt" value="微信小程序运行时（WeChat Runtime）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;align=left;verticalAlign=top;spacingTop=8;" parent="1" vertex="1">
           <mxGeometry x="30" y="88" width="1320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="api" value="平台能力 API&#xa;• 路由：navigateTo / switchTab / redirectTo&#xa;• 设备：getWindowInfo / pixelRatio&#xa;• 媒体：chooseImage / saveFile / 相册权限&#xa;• 文件：FileSystemManager&#xa;• 交互：Toast / Modal / Loading" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6EC;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="rt" vertex="1">
+        <mxCell id="api" value="平台能力 API&#xa;• 路由：navigateTo / switchTab / redirectTo&#xa;• 设备：getWindowInfo / pixelRatio&#xa;• 媒体：chooseImage / saveFile / 相册权限&#xa;• 文件：FileSystemManager&#xa;• 交互：Toast / Modal / Loading" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;spacing=10;" parent="rt" vertex="1">
           <mxGeometry x="20" y="46" width="520" height="64" as="geometry" />
         </mxCell>
         <mxCell id="ui" value="视图层（WXML/WXSS） + 交互层（Page/Component）&#xa;• 页面：pages/*&#xa;• 自定义 TabBar：custom-tab-bar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="rt" vertex="1">
