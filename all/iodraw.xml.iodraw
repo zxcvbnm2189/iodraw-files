@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="core-flow-onepage" name="核心流程（计划书版）">
-    <mxGraphModel dx="1436" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry x="470" y="78" width="420" height="92" as="geometry" />
         </mxCell>
         <mxCell id="create" value="创作传播（变脸/涂装）&#xa;• 选素材 + 模板/效果&#xa;• 生成海报 → 保存/分享&#xa;• 作品入库（藏宝阁）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="40" y="466" width="250" height="102" as="geometry" />
+          <mxGeometry x="85" y="466" width="250" height="102" as="geometry" />
         </mxCell>
         <mxCell id="trade" value="文旅转化（市集预约/文创）&#xa;• 预约确认 → 生成订单&#xa;• 预约列表：二维码核销/取消&#xa;• 文创：加入商契 → 订单/物流" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="890" y="180" width="310" height="112" as="geometry" />
