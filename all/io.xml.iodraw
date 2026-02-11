@@ -77,11 +77,8 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r1" value="加载" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="1" source="res" target="f_wiki" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HZ1hjq46_OG640jXrmWc-3" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r1">
-          <mxGeometry x="-0.0357" y="3" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
+          <mxGeometry x="0.0294" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r2" value="加载" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="1" source="res" target="f_home" edge="1">
