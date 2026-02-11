@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="t" value="掌上悬丝｜核心用户旅程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontStyle=1;fontSize=18;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="40" y="20" width="1160" height="48" as="geometry" />
+          <mxGeometry x="80" y="20" width="1120" height="48" as="geometry" />
         </mxCell>
         <mxCell id="note" value="虚线 = 需要点卯（登录）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=12;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="140" y="90" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="home" value="首页聚合入口&#xa;• Tab：百科 / 变脸 / 涂装 / 市集 / 我的&#xa;• 签到提示 + 热门文创" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="30" y="130" width="360" height="92" as="geometry" />
+          <mxGeometry x="80" y="130" width="310" height="92" as="geometry" />
         </mxCell>
         <mxCell id="gate" value="登录态门控（点卯）&#xa;• 未登录：跳转登录/注册&#xa;• 登录后：redirect 回跳" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#C31E1E;fontColor=#2E2E2E;fontStyle=1;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="270" y="252" width="360" height="84" as="geometry" />
