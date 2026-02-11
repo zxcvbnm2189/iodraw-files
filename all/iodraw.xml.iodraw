@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="core-flow-onepage" name="核心流程（计划书版）">
-    <mxGraphModel dx="1436" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2836" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,16 +20,16 @@
           <mxGeometry x="470" y="78" width="420" height="92" as="geometry" />
         </mxCell>
         <mxCell id="create" value="创作传播（变脸/涂装）&#xa;• 选素材 + 模板/效果&#xa;• 生成海报 → 保存/分享&#xa;• 作品入库（藏宝阁）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="60" y="480" width="420" height="102" as="geometry" />
+          <mxGeometry x="-20" y="558" width="420" height="102" as="geometry" />
         </mxCell>
         <mxCell id="trade" value="文旅转化（市集预约/文创）&#xa;• 预约确认 → 生成订单&#xa;• 预约列表：二维码核销/取消&#xa;• 文创：加入商契 → 订单/物流" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="980" y="140" width="440" height="112" as="geometry" />
         </mxCell>
         <mxCell id="me" value="个人沉淀（我的）&#xa;• 头像/昵称/会员位&#xa;• 银票（积分）+ 等级&#xa;• 预约/商契/藏宝阁/兑换" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;fontColor=#2E2E2E;fontStyle=1;fontSize=13;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="700" y="270" width="440" height="82" as="geometry" />
+          <mxGeometry x="260" y="440" width="440" height="82" as="geometry" />
         </mxCell>
         <mxCell id="value" value="成长闭环（银票/等级）&#xa;来源：签到 + 市集预约(+20) + 百科问答奖励&#xa;去向：驱动个人中心展示与持续参与" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6EC;strokeColor=#C31E1E;fontColor=#2E2E2E;fontSize=13;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="770" y="650" width="470" height="74" as="geometry" />
+          <mxGeometry x="465" y="660" width="470" height="74" as="geometry" />
         </mxCell>
         <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="1" source="home" target="learn" edge="1">
           <mxGeometry relative="1" as="geometry" />
