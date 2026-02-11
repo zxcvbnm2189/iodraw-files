@@ -43,7 +43,7 @@
         <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeColor=#2E2E2E;endArrow=block;endFill=1;" parent="1" source="home" target="me" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g1" value="需点卯" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;dashed=1;strokeColor=#C31E1E;endArrow=block;endFill=1;" parent="1" source="create" target="gate" edge="1">
+        <mxCell id="g1" value="需登录" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;dashed=1;strokeColor=#C31E1E;endArrow=block;endFill=1;" parent="1" source="create" target="gate" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="660" y="320" as="sourcePoint" />
             <mxPoint x="220" y="300" as="targetPoint" />
