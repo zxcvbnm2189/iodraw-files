@@ -76,9 +76,10 @@
         <mxCell id="se8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;" parent="1" source="s_3d" target="s_guide" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="se9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;" parent="1" source="s_fail" target="s_guide" edge="1">
+        <mxCell id="se9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;" parent="1" target="s_guide" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="585" as="targetPoint" />
+            <mxPoint x="900" y="570" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="430" y="560" />
             </Array>
@@ -97,7 +98,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="705" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="930" y="560" />
+              <mxPoint x="900" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
