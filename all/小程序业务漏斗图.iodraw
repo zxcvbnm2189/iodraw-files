@@ -11,10 +11,10 @@
           <mxGeometry x="40" y="58" width="1080" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fc" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#D0C7B8;strokeWidth=2;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="110" width="920" height="640" as="geometry" />
+          <mxGeometry x="210" y="110" width="910" height="590" as="geometry" />
         </mxCell>
         <mxCell id="f1" value="拉新（Awareness / Acquisition）\n来源：短视频/达人种草｜校园活动/展演现场｜用户分享\n落地：pages/index、pages/wiki、pages/face、pages/diy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="255" y="140" width="830" height="95" as="geometry" />
+          <mxGeometry x="255" y="160" width="830" height="95" as="geometry" />
         </mxCell>
         <mxCell id="f2" value="激活（Activation）\n关键动作：注册/登录（点卯）｜首次完成 AR/挑战/涂装 任一体验\n页面：pages/auth/register、pages/auth/login、pages/ar、pages/face、pages/diy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#2C4C66;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="305" y="255" width="730" height="95" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry x="405" y="455" width="530" height="95" as="geometry" />
         </mxCell>
         <mxCell id="f5" value="复购（Repurchase）\n路径：订单/预约管理 → 物流/核销完成 → 再次购买/预约\n页面：pages/orders、pages/booking、pages/user（积分/等级）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#2C4C66;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="455" y="615" width="430" height="95" as="geometry" />
+          <mxGeometry x="455" y="550" width="430" height="95" as="geometry" />
         </mxCell>
         <mxCell id="fa12" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;" parent="1" source="f1" target="f2" edge="1">
           <mxGeometry relative="1" as="geometry" />
