@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zone_production" value="Phase 1: 资产生产与配置流水线" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#1e293b;strokeColor=#0f172a;fontColor=#ffffff;rounded=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="80" width="220" height="580" as="geometry" />
+          <mxGeometry x="150" y="80" width="220" height="580" as="geometry" />
         </mxCell>
         <mxCell id="prod_content" value="" style="swimlane;html=1;startSize=0;connectable=0;fillColor=#334155;strokeColor=none;" parent="zone_production" vertex="1">
           <mxGeometry y="30" width="220" height="550" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zone_runtime" value="Phase 2: AR 客户端运行时架构 (Runtime Architecture)" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;rounded=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="580" height="590" as="geometry" />
+          <mxGeometry x="410" y="80" width="580" height="590" as="geometry" />
         </mxCell>
         <mxCell id="layer_view" value="L1: 视图与输入层 (View &amp; Input)" style="swimlane;html=1;startSize=30;horizontal=0;connectable=0;fillColor=#e0f2fe;strokeColor=#7dd3fc;fontColor=#0369a1;" parent="zone_runtime" vertex="1">
           <mxGeometry y="30" width="580" height="130" as="geometry" />
@@ -97,8 +97,8 @@
         <mxCell id="edge_cloud_load" value="下载资源包" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#38bdf8;strokeWidth=2;dashed=1;" parent="1" source="step_cloud" target="asset_loader" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="110" y="640" />
-              <mxPoint x="420" y="640" />
+              <mxPoint x="220" y="640" />
+              <mxPoint x="530" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -119,7 +119,7 @@
         <mxCell id="edge_data_cv" value="加载特征库" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#9333ea;strokeWidth=1;" parent="1" source="config_db" target="group_cv" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="550" />
+              <mxPoint x="570" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
