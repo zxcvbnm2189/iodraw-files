@@ -23,7 +23,7 @@
           <mxGeometry x="440" y="165" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n_entry" value="进入小程序&lt;br/&gt;首页/Tab 导航（百科/挑战/涂装/预约/我的）&lt;br/&gt;pages/index | pages/wiki | pages/face | pages/diy | pages/market | pages/user" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="700" y="125" width="420" height="90" as="geometry" />
+          <mxGeometry x="710" y="190" width="420" height="90" as="geometry" />
         </mxCell>
         <mxCell id="n_experience" value="体验阶段&lt;br/&gt;- AR 戏台：木偶构造/拟3D旋转&lt;br/&gt;- 非遗百科：内容浏览/图谱&lt;br/&gt;- 变脸挑战：模板/效果/海报生成&lt;br/&gt;- 国风涂装：配色创作/导出&lt;br/&gt;pages/ar | pages/wiki/* | pages/face | pages/diy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="40" y="285" width="520" height="150" as="geometry" />
