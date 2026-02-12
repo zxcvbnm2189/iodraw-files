@@ -1,0 +1,113 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="iodraw-business" name="关键业务流程（注册→体验→互动→下单）" compressed="true">
+    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t1" value="掌上悬丝｜关键业务流程图" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=22;fontStyle=1;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" value="范围：注册/登录 → 体验（AR/百科/挑战/涂装）→ 互动沉淀 → 市集/预约 → 下单/核销 → 复访分享" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#5A5A5A;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="58" width="1040" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n_start" value="触达入口&lt;br/&gt;（短视频/校园活动/分享）" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="130" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n_login_gate" value="已登录？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="125" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n_register" value="注册&lt;br/&gt;pages/auth/register" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="90" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n_login" value="登录（点卯）&lt;br/&gt;pages/auth/login" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="170" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n_entry" value="进入小程序&lt;br/&gt;首页/Tab 导航（百科/挑战/涂装/预约/我的）&lt;br/&gt;pages/index | pages/wiki | pages/face | pages/diy | pages/market | pages/user" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="190" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n_experience" value="体验阶段&lt;br&gt;- AR 戏台：木偶构造/拟3D旋转&lt;br&gt;- 非遗百科：内容浏览/图谱&lt;br&gt;- 变脸挑战：模板/效果/海报生成&lt;br&gt;- 国风涂装：配色创作/导出&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="285" width="520" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n_interact" value="互动沉淀&lt;br/&gt;- 签到/积分：signInStore（连签奖励）&lt;br/&gt;- 收藏/随机搭配/分享：Face &amp; DIY&lt;br/&gt;- 测验/错题：Wiki Quiz&lt;br/&gt;（目标：形成回访动机与转化意向）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="285" width="520" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n_market" value="进入市集/预约入口&lt;br/&gt;pages/market（演出/研学/票务/文创/套票）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="490" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n_goods" value="选择商品/票券详情&lt;br/&gt;pages/goods/detail（实物/文创）&lt;br/&gt;或直接确认预约（票务/研学等）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="490" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n_order" value="下单/预约提交&lt;br/&gt;- 写入 my_bookings / my_goods_orders&lt;br/&gt;- 预约成功奖励积分（+20）&lt;br/&gt;（需要登录）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="790" y="490" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n_manage" value="履约与管理&lt;br/&gt;- 预约：booking（二维码/核销/取消）&lt;br/&gt;- 订单：orders（待发货/物流/删除）&lt;br/&gt;- 我的：user（积分/弹窗提醒）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="620" width="520" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n_end" value="完成体验/复访分享&lt;br/&gt;（形成拉新闭环）" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="640" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_start" target="n_login_gate" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;fontSize=11;fontColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_login_gate" target="n_register" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_register" target="n_login" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;fontSize=11;fontColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_login_gate" target="n_entry" edge="1">
+          <mxGeometry x="-0.1053" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_login" target="n_entry" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_entry" target="n_experience" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_experience" target="n_interact" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="400" />
+              <mxPoint x="580" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_interact" target="n_market" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_market" target="n_goods" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_goods" target="n_order" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_order" target="n_manage" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" value="分享/复访" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#8D2A2A;fontSize=11;fontColor=#8D2A2A;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_manage" target="n_end" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" value="裂变拉新" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#8D2A2A;fontSize=11;fontColor=#8D2A2A;dashed=1;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="n_end" target="n_start" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="760" />
+              <mxPoint x="130" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
