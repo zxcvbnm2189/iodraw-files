@@ -95,8 +95,9 @@
         <mxCell id="edge_cloud_load" value="HTTPS 下载资源" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#0EA5E9;strokeWidth=2;dashed=1;" parent="layer_data" source="cloud_services" target="model_lib" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600" y="180" />
-              <mxPoint y="180" />
+              <mxPoint x="600" y="230" />
+              <mxPoint y="230" />
+              <mxPoint y="116" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -114,12 +115,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_raycast_sdk" value="获取坐标" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#9333EA;strokeWidth=2;" parent="1" source="raycast_logic" target="group_tracking" edge="1">
+        <mxCell id="edge_raycast_sdk" value="获取坐标" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#9333EA;strokeWidth=2;" parent="1" target="group_tracking" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="660" y="320" />
               <mxPoint x="550" y="320" />
-              <mxPoint x="210" y="320" />
+              <mxPoint x="550" y="260" />
+              <mxPoint x="320" y="260" />
             </Array>
+            <mxPoint x="650" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="edge_sdk_model" value="资源请求" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#16A34A;strokeWidth=2;" parent="1" source="group_scene" target="model_lib" edge="1">
