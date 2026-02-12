@@ -25,7 +25,7 @@
         <mxCell id="n_entry" value="进入小程序&lt;br/&gt;首页/Tab 导航（百科/挑战/涂装/预约/我的）&lt;br/&gt;pages/index | pages/wiki | pages/face | pages/diy | pages/market | pages/user" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="710" y="190" width="420" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="n_experience" value="体验阶段&lt;br/&gt;- AR 戏台：木偶构造/拟3D旋转&lt;br/&gt;- 非遗百科：内容浏览/图谱&lt;br/&gt;- 变脸挑战：模板/效果/海报生成&lt;br/&gt;- 国风涂装：配色创作/导出&lt;br/&gt;pages/ar | pages/wiki/* | pages/face | pages/diy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;" parent="1" vertex="1">
+        <mxCell id="n_experience" value="体验阶段&lt;br&gt;- AR 戏台：木偶构造/拟3D旋转&lt;br&gt;- 非遗百科：内容浏览/图谱&lt;br&gt;- 变脸挑战：模板/效果/海报生成&lt;br&gt;- 国风涂装：配色创作/导出&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="40" y="285" width="520" height="150" as="geometry" />
         </mxCell>
         <mxCell id="n_interact" value="互动沉淀&lt;br/&gt;- 签到/积分：signInStore（连签奖励）&lt;br/&gt;- 收藏/随机搭配/分享：Face &amp; DIY&lt;br/&gt;- 测验/错题：Wiki Quiz&lt;br/&gt;（目标：形成回访动机与转化意向）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;" parent="1" vertex="1">
@@ -58,7 +58,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e4" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;fontSize=11;fontColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;" parent="1" source="n_login_gate" target="n_entry" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-0.1053" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;" parent="1" source="n_login" target="n_entry" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -74,6 +76,9 @@
         <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;" parent="1" source="n_interact" target="n_market" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="400" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;" parent="1" source="n_market" target="n_goods" edge="1">
