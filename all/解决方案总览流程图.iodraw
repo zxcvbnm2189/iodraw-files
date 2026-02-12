@@ -44,7 +44,7 @@
           <mxGeometry x="80" y="545" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="s_book" value="预约转化&lt;br/&gt;选择项目/场次 → 提交预约 → 二维码核销&lt;br/&gt;pages/market → pages/booking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="420" y="545" width="300" height="90" as="geometry" />
+          <mxGeometry x="420" y="570" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="s_user" value="用户中心沉淀&lt;br/&gt;登录态/头像/等级&lt;br/&gt;积分签到（连签奖励）&lt;br/&gt;pages/user + utils/signInStore" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#2E2E2E;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="760" y="660" width="370" height="90" as="geometry" />
