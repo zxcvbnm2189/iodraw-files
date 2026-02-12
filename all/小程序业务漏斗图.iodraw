@@ -41,10 +41,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="arch" value="架构支撑&lt;div&gt;账号：utils/authStore（注册/登录、用户信息）&lt;/div&gt;&lt;div&gt;积分/签到：utils/signInStore（连签奖励、等级加成）&lt;/div&gt;&lt;div&gt;内容：pages/wiki（atlas/playList/detail/quiz/quizWrong）&lt;/div&gt;&lt;div&gt;互动：pages/face（海报/收藏/模板/效果）、pages/diy（涂装/导出）&lt;/div&gt;&lt;div&gt;交易：pages/market、pages/goods/detail、pages/booking、pages/orders&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D0C7B8;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="40" y="140" width="160" height="260" as="geometry" />
+          <mxGeometry x="40" y="130" width="210" height="270" as="geometry" />
         </mxCell>
         <mxCell id="kpi" value="拉新：UV、来源占比、落地页停留&lt;div&gt;激活：注册率、首日完成体验率&lt;/div&gt;&lt;div&gt;留存：次日/7日留存、连签人数&lt;/div&gt;&lt;div&gt;转化：市集到详情转化、预约/下单率&lt;/div&gt;&lt;div&gt;复购：30日复购率、客单价、回访频次&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#D0C7B8;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="40" y="490" width="150" height="170" as="geometry" />
+          <mxGeometry x="40" y="440" width="210" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
