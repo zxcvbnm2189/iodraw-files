@@ -40,7 +40,7 @@
         <mxCell id="fa45" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;" parent="1" source="f4" target="f5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arch" value="架构支撑（用于漏斗落地）&lt;div&gt;\n账号：utils/authStore（注册/登录、用户信息）\n&lt;/div&gt;&lt;div&gt;积分/签到：utils/signInStore（连签奖励、等级加成）\n&lt;/div&gt;&lt;div&gt;内容：pages/wiki（atlas/playList/detail/quiz/quizWrong）\n&lt;/div&gt;&lt;div&gt;互动：pages/face（海报/收藏/模板/效果）、pages/diy（涂装/导出）\n&lt;/div&gt;&lt;div&gt;交易：pages/market、pages/goods/detail、pages/booking、pages/orders&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D0C7B8;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="arch" value="架构支撑&lt;div&gt;账号：utils/authStore（注册/登录、用户信息）&lt;/div&gt;&lt;div&gt;积分/签到：utils/signInStore（连签奖励、等级加成）&lt;/div&gt;&lt;div&gt;内容：pages/wiki（atlas/playList/detail/quiz/quizWrong）&lt;/div&gt;&lt;div&gt;互动：pages/face（海报/收藏/模板/效果）、pages/diy（涂装/导出）&lt;/div&gt;&lt;div&gt;交易：pages/market、pages/goods/detail、pages/booking、pages/orders&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D0C7B8;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="40" y="140" width="160" height="330" as="geometry" />
         </mxCell>
         <mxCell id="kpi" value="建议关注的漏斗口径（示例）\n拉新：UV、来源占比、落地页停留\n激活：注册率、首日完成体验率\n留存：次日/7日留存、连签人数\n转化：市集到详情转化、预约/下单率\n复购：30日复购率、客单价、回访频次" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#D0C7B8;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;align=left;verticalAlign=top;" parent="1" vertex="1">
