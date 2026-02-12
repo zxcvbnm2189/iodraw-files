@@ -27,6 +27,9 @@
         <mxCell id="scene_mgr" value="场景管理器&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#666;&quot;&gt;(加载流程 / 状态切换)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A855F7;fontColor=#581C87;shadow=0;" parent="layer_logic" vertex="1">
           <mxGeometry x="60" y="35" width="140" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="ZZcn9eDnpWc_3P-UEeHy-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="layer_logic" source="event_bridge" target="scene_mgr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="event_bridge" value="JSBridge 通信桥接&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#666;&quot;&gt;(小程序 &lt;-&gt; Kivicube SDK)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A855F7;fontColor=#581C87;shadow=0;" parent="layer_logic" vertex="1">
           <mxGeometry x="230" y="35" width="140" height="50" as="geometry" />
         </mxCell>
