@@ -32,7 +32,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zone_runtime" value="Phase 2: AR 客户端运行时架构 (Runtime Architecture)" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;rounded=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="580" height="580" as="geometry" />
+          <mxGeometry x="300" y="80" width="580" height="570" as="geometry" />
         </mxCell>
         <mxCell id="layer_view" value="L1: 视图与输入层 (View &amp; Input)" style="swimlane;html=1;startSize=30;horizontal=0;connectable=0;fillColor=#e0f2fe;strokeColor=#7dd3fc;fontColor=#0369a1;" parent="zone_runtime" vertex="1">
           <mxGeometry y="30" width="580" height="130" as="geometry" />
@@ -83,7 +83,7 @@
           <mxGeometry x="50" y="190" width="470" height="40" as="geometry" />
         </mxCell>
         <mxCell id="layer_data" value="L3: 数据与资源层 (Data Layer)" style="swimlane;html=1;startSize=30;horizontal=0;connectable=0;fillColor=#f3e8ff;strokeColor=#c084fc;fontColor=#7e22ce;" parent="zone_runtime" vertex="1">
-          <mxGeometry y="420" width="580" height="130" as="geometry" />
+          <mxGeometry y="420" width="580" height="150" as="geometry" />
         </mxCell>
         <mxCell id="asset_loader" value="资源加载器 (Loader)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a855f7;fontColor=#581c87;" parent="layer_data" vertex="1">
           <mxGeometry x="50" y="20" width="140" height="80" as="geometry" />
@@ -109,7 +109,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge_render_canvas" value="绘制画面" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#16a34a;strokeWidth=2;" parent="1" source="webgl_core" target="ar_canvas" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="0.2558" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="edge_data_engine" value="实例化模型" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#9333ea;strokeWidth=1;" parent="1" source="model_pool" target="group_render" edge="1">
           <mxGeometry relative="1" as="geometry" />
