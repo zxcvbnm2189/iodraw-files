@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="ops-funnel" name="小程序运营漏斗（拉新→激活→留存→转化→复购）" compressed="false">
+    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ft1" value="掌上悬丝｜小程序运营漏斗图" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=22;fontStyle=1;fontColor=#2E2E2E;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ft2" value="按现有架构映射：内容（wiki）× 互动（face/diy/quiz）× 交易（market/goods/booking/orders）× 账号（auth）× 积分签到（signInStore）" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#5A5A5A;" parent="1" vertex="1">
+          <mxGeometry x="40" y="58" width="1080" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fc" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#D0C7B8;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="110" width="920" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" value="拉新（Awareness / Acquisition）\n来源：短视频/达人种草｜校园活动/展演现场｜用户分享\n落地：pages/index、pages/wiki、pages/face、pages/diy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="255" y="140" width="830" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" value="激活（Activation）\n关键动作：注册/登录（点卯）｜首次完成 AR/挑战/涂装 任一体验\n页面：pages/auth/register、pages/auth/login、pages/ar、pages/face、pages/diy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#2C4C66;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="305" y="255" width="730" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" value="留存（Retention）\n机制：签到连签奖励（signInStore）｜内容连续消费（wiki 图谱/列表/详情）\n互动：收藏/随机搭配/海报导出（face/diy）｜测验与错题回访（wiki/quiz）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="355" y="370" width="630" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" value="转化（Conversion）\n触发：市集浏览 → 选择演出/研学/票务/文创/套票 → 确认预约/下单\n页面：pages/market、pages/goods/detail、pages/booking（核销二维码）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="405" y="500" width="530" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" value="复购（Repurchase）\n路径：订单/预约管理 → 物流/核销完成 → 再次购买/预约\n页面：pages/orders、pages/booking、pages/user（积分/等级）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#2C4C66;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="455" y="615" width="430" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="fa12" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;" parent="1" source="f1" target="f2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fa23" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;" parent="1" source="f2" target="f3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fa34" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;" parent="1" source="f3" target="f4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fa45" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;" parent="1" source="f4" target="f5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch" value="架构支撑（用于漏斗落地）\n账号：utils/authStore（注册/登录、用户信息）\n积分/签到：utils/signInStore（连签奖励、等级加成）\n内容：pages/wiki（atlas/playList/detail/quiz/quizWrong）\n互动：pages/face（海报/收藏/模板/效果）、pages/diy（涂装/导出）\n交易：pages/market、pages/goods/detail、pages/booking、pages/orders" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D0C7B8;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="140" width="150" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi" value="建议关注的漏斗口径（示例）\n拉新：UV、来源占比、落地页停留\n激活：注册率、首日完成体验率\n留存：次日/7日留存、连签人数\n转化：市集到详情转化、预约/下单率\n复购：30日复购率、客单价、回访频次" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#D0C7B8;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="490" width="150" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
