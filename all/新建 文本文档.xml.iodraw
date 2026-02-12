@@ -97,8 +97,8 @@
         <mxCell id="edge_cloud_load" value="下载资源包" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#38bdf8;strokeWidth=2;dashed=1;" parent="1" source="step_cloud" target="asset_loader" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="110" y="680" />
-              <mxPoint x="420" y="680" />
+              <mxPoint x="110" y="640" />
+              <mxPoint x="420" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
