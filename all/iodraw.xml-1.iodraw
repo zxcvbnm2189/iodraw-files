@@ -20,7 +20,7 @@
           <mxGeometry x="440" y="90" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n_login" value="登录（点卯）&lt;br/&gt;pages/auth/login" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="440" y="165" width="210" height="60" as="geometry" />
+          <mxGeometry x="440" y="170" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n_entry" value="进入小程序&lt;br/&gt;首页/Tab 导航（百科/挑战/涂装/预约/我的）&lt;br/&gt;pages/index | pages/wiki | pages/face | pages/diy | pages/market | pages/user" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#2E2E2E;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="710" y="190" width="420" height="90" as="geometry" />
