@@ -115,7 +115,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge_data_cv" value="加载特征库" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#9333ea;strokeWidth=1;" parent="1" source="config_db" target="group_cv" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
