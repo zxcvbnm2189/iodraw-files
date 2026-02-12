@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bg_client" value="微信小程序 / Kivicube AR 运行时环境" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=30;horizontal=1;horizontalStack=0;connectable=0;fillColor=#F1F5F9;strokeColor=#64748B;fontColor=#1E293B;rounded=1;arcSize=10;fontStyle=1;fontSize=14;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="180" y="10" width="690" height="660" as="geometry" />
+          <mxGeometry x="190" y="-380" width="680" height="660" as="geometry" />
         </mxCell>
         <mxCell id="layer_presentation" value="L1: 表现与交互层 (Presentation &amp; Interaction)" style="swimlane;html=1;startSize=30;horizontal=0;connectable=0;fillColor=#E0F2FE;strokeColor=#0EA5E9;fontColor=#0369A1;rounded=0;" parent="bg_client" vertex="1">
-          <mxGeometry y="30" width="690" height="140" as="geometry" />
+          <mxGeometry y="30" width="680" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ui_overlay" value="UI 悬浮层&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#666;&quot;&gt;(操作按钮 / 提示引导 / 截图分享)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#38BDF8;fontColor=#0284C7;shadow=1;" parent="layer_presentation" vertex="1">
           <mxGeometry x="60" y="20" width="220" height="50" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry x="320" y="20" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="layer_logic" value="L2: 业务适配层 (Business Logic Adapter)" style="swimlane;html=1;startSize=30;horizontal=0;connectable=0;fillColor=#F3E8FF;strokeColor=#9333EA;fontColor=#6B21A8;rounded=0;" parent="bg_client" vertex="1">
-          <mxGeometry y="170" width="690" height="120" as="geometry" />
+          <mxGeometry y="170" width="680" height="120" as="geometry" />
         </mxCell>
         <mxCell id="scene_mgr" value="场景管理器&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#666;&quot;&gt;(加载流程 / 状态切换)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A855F7;fontColor=#581C87;shadow=0;" parent="layer_logic" vertex="1">
           <mxGeometry x="60" y="35" width="140" height="50" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry x="400" y="35" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="layer_sdk" value="L3: Kivicube AR SDK 核心引擎 (Core Engine)" style="swimlane;html=1;startSize=30;horizontal=0;connectable=0;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#14532D;rounded=0;" parent="bg_client" vertex="1">
-          <mxGeometry y="290" width="690" height="200" as="geometry" />
+          <mxGeometry y="290" width="680" height="200" as="geometry" />
         </mxCell>
         <mxCell id="group_tracking" value="" style="group" parent="layer_sdk" vertex="1" connectable="0">
           <mxGeometry x="60" y="30" width="140" height="140" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry x="10" y="75" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="layer_data" value="L4: 模型库与数据层 (Model Lib &amp; Data)" style="swimlane;html=1;startSize=30;horizontal=0;connectable=0;fillColor=#F1F5F9;strokeColor=#64748B;fontColor=#334155;rounded=0;" parent="bg_client" vertex="1">
-          <mxGeometry y="490" width="690" height="170" as="geometry" />
+          <mxGeometry y="490" width="680" height="170" as="geometry" />
         </mxCell>
         <mxCell id="model_lib" value="3D 模型资源库&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#666;&quot;&gt;(GLB / GLTF / 贴图)&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#E2E8F0;strokeColor=#475569;fontColor=#333;" parent="layer_data" vertex="1">
           <mxGeometry x="60" y="40" width="120" height="80" as="geometry" />
