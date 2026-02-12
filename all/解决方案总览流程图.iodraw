@@ -93,6 +93,9 @@
         <mxCell id="se13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;" parent="1" source="s_book" target="s_user" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="705" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="945" y="590" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="se14" value="复访/复购" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#8D2A2A;fontSize=11;fontColor=#8D2A2A;orthogonalLoop=1;jettySize=auto;" parent="1" source="s_user" target="s_shop" edge="1">
