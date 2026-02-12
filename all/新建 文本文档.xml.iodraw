@@ -109,8 +109,10 @@
         <mxCell id="edge_raycast_sdk" value="获取坐标" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#9333EA;strokeWidth=2;" parent="1" source="raycast_logic" target="group_tracking" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="660" y="320" />
               <mxPoint x="550" y="320" />
-              <mxPoint x="210" y="320" />
+              <mxPoint x="550" y="260" />
+              <mxPoint x="320" y="260" />
             </Array>
           </mxGeometry>
         </mxCell>
