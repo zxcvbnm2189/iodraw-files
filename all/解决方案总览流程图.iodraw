@@ -79,6 +79,9 @@
         <mxCell id="se9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;" parent="1" source="s_fail" target="s_guide" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="585" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="560" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="se10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;" parent="1" source="s_guide" target="s_shop" edge="1">
@@ -94,7 +97,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="705" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="945" y="590" />
+              <mxPoint x="930" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
