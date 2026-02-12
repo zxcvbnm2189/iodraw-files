@@ -36,7 +36,7 @@
         <mxCell id="raycast_logic" value="射线检测逻辑&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#666;&quot;&gt;(2D坐标转3D碰撞)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A855F7;fontColor=#581C87;shadow=0;" parent="layer_logic" vertex="1">
           <mxGeometry x="400" y="35" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="layer_sdk" value="L3: Kivicube AR SDK 核心引擎 (Core Engine)" style="swimlane;html=1;startSize=30;horizontal=0;connectable=0;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#14532D;rounded=0;" parent="bg_client" vertex="1">
+        <mxCell id="layer_sdk" value="L3: Kivicube AR SDK 核心引擎&amp;nbsp;" style="swimlane;html=1;startSize=30;horizontal=0;connectable=0;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#14532D;rounded=0;" parent="bg_client" vertex="1">
           <mxGeometry y="220" width="680" height="270" as="geometry">
             <mxRectangle y="290" width="670" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -90,7 +90,7 @@
           <mxGeometry x="400" y="55" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cloud_services" value="云端服务 (OSS/CDN)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;fontColor=#0284C7;shadow=0;" parent="layer_data" vertex="1">
-          <mxGeometry x="520" y="30" width="160" height="110" as="geometry" />
+          <mxGeometry x="520" y="65" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="edge_cloud_load" value="HTTPS 下载资源" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#0EA5E9;strokeWidth=2;dashed=1;" parent="layer_data" source="cloud_services" target="model_lib" edge="1">
           <mxGeometry relative="1" as="geometry">
