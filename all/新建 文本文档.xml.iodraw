@@ -107,7 +107,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge_logic_sdk" value="API 调用 / 驱动" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#9333EA;strokeWidth=2;dashed=1;" parent="1" source="scene_mgr" target="group_scene" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="190" />
+              <mxPoint x="660" y="190" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="edge_raycast_sdk" value="获取坐标" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#9333EA;strokeWidth=2;" parent="1" source="raycast_logic" target="group_tracking" edge="1">
           <mxGeometry relative="1" as="geometry">
