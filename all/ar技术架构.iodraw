@@ -1,0 +1,129 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="kivicube-tracking-arch" name="Kivicube图像识别AR架构">
+    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zone_production" value="Phase 1: 资产生产与配置流水线" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#1e293b;strokeColor=#0f172a;fontColor=#ffffff;rounded=1;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="220" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_content" value="" style="swimlane;html=1;startSize=0;connectable=0;fillColor=#334155;strokeColor=none;" parent="zone_production" vertex="1">
+          <mxGeometry y="30" width="220" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="step_modeling" value="1. 数字内容创作&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#cbd5e1;&quot;&gt;(Maya / Blender / C4D)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#475569;strokeColor=#94a3b8;fontColor=#ffffff;" parent="prod_content" vertex="1">
+          <mxGeometry x="30" y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step_export" value="2. 格式标准化导出&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#cbd5e1;&quot;&gt;(GLB / GLTF 压缩优化)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#475569;strokeColor=#94a3b8;fontColor=#ffffff;" parent="prod_content" vertex="1">
+          <mxGeometry x="30" y="120" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step_marker" value="3. 识别图(Marker)处理&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#cbd5e1;&quot;&gt;(特征点提取与评估)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#475569;strokeColor=#94a3b8;fontColor=#ffffff;" parent="prod_content" vertex="1">
+          <mxGeometry x="30" y="200" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step_cloud" value="4. Kivicube 云端配置&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#cbd5e1;&quot;&gt;(关联识别图与3D模型)&lt;/span&gt;" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#38bdf8;fontColor=#38bdf8;" parent="prod_content" vertex="1">
+          <mxGeometry x="25" y="300" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_p1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#94a3b8;" parent="prod_content" source="step_modeling" target="step_export" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_p2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#94a3b8;" parent="prod_content" source="step_export" target="step_marker" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_p3" value="上传" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#94a3b8;" parent="prod_content" source="step_marker" target="step_cloud" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zone_runtime" value="Phase 2: AR 客户端运行时架构 (Runtime Architecture)" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;rounded=1;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="80" width="580" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_view" value="L1: 视图与输入层 (View &amp; Input)" style="swimlane;html=1;startSize=30;horizontal=0;connectable=0;fillColor=#e0f2fe;strokeColor=#7dd3fc;fontColor=#0369a1;" parent="zone_runtime" vertex="1">
+          <mxGeometry y="30" width="580" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="camera_feed" value="摄像头视频流&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#666;&quot;&gt;(Camera YUV Data)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0ea5e9;fontColor=#0284c7;shadow=1;" parent="layer_view" vertex="1">
+          <mxGeometry x="60" y="20" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ar_canvas" value="AR 渲染画布 (Canvas)&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#666;&quot;&gt;(WebGL Layer)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0ea5e9;fontColor=#0284c7;shadow=1;" parent="layer_view" vertex="1">
+          <mxGeometry x="300" y="20" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ui_scan" value="UI: 扫描引导框" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=#bae6fd;fontColor=#0284c7;dashed=1;" parent="layer_view" vertex="1">
+          <mxGeometry x="60" y="80" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_engine" value="L2: Kivicube AR 核心引擎 (Core SDK)" style="swimlane;html=1;startSize=30;horizontal=0;connectable=0;fillColor=#dcfce7;strokeColor=#86efac;fontColor=#15803d;" parent="zone_runtime" vertex="1">
+          <mxGeometry y="160" width="580" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="group_cv" value="" style="group" parent="layer_engine" vertex="1" connectable="0">
+          <mxGeometry x="50" y="30" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cv_bg" value="计算机视觉 (CV) 模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#4ade80;fontColor=#166534;verticalAlign=top;fontStyle=1" parent="group_cv" vertex="1">
+          <mxGeometry width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="feature_extract" value="特征提取 (Feature Extraction)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#86efac;fontColor=#333;" parent="group_cv" vertex="1">
+          <mxGeometry x="20" y="35" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="feature_match" value="图像匹配 (Matching)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#86efac;fontColor=#333;" parent="group_cv" vertex="1">
+          <mxGeometry x="20" y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pose_calc" value="位姿估算 (Pose Estimation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#16a34a;strokeColor=#14532d;fontColor=#ffffff;fontStyle=1" parent="group_cv" vertex="1">
+          <mxGeometry x="20" y="105" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="group_render" value="" style="group" parent="layer_engine" vertex="1" connectable="0">
+          <mxGeometry x="300" y="30" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="render_bg" value="3D 渲染与控制模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#4ade80;fontColor=#166534;verticalAlign=top;fontStyle=1" parent="group_render" vertex="1">
+          <mxGeometry width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="scene_graph" value="场景图 (Scene Graph)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#86efac;fontColor=#333;" parent="group_render" vertex="1">
+          <mxGeometry x="20" y="35" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="anim_ctrl" value="动画控制器 (Animation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#86efac;fontColor=#333;" parent="group_render" vertex="1">
+          <mxGeometry x="20" y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="webgl_core" value="WebGL 渲染器 (Renderer)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#16a34a;strokeColor=#14532d;fontColor=#ffffff;fontStyle=1" parent="group_render" vertex="1">
+          <mxGeometry x="20" y="105" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="interaction_logic" value="交互事件系统 (Raycast / Touch)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbf7d0;strokeColor=#22c55e;fontColor=#14532d;" parent="layer_engine" vertex="1">
+          <mxGeometry x="50" y="190" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_data" value="L3: 数据与资源层 (Data Layer)" style="swimlane;html=1;startSize=30;horizontal=0;connectable=0;fillColor=#f3e8ff;strokeColor=#c084fc;fontColor=#7e22ce;" parent="zone_runtime" vertex="1">
+          <mxGeometry y="420" width="580" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="asset_loader" value="资源加载器 (Loader)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a855f7;fontColor=#581c87;" parent="layer_data" vertex="1">
+          <mxGeometry x="50" y="20" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="model_pool" value="模型对象池&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#666;&quot;&gt;(Mesh/Material)&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e9d5ff;strokeColor=#9333ea;fontColor=#333;" parent="layer_data" vertex="1">
+          <mxGeometry x="240" y="20" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="config_db" value="本地识别库&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#666;&quot;&gt;(Dat / Dictionary)&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e9d5ff;strokeColor=#9333ea;fontColor=#333;size=15;" parent="layer_data" vertex="1">
+          <mxGeometry x="400" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_cloud_load" value="下载资源包" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#38bdf8;strokeWidth=2;dashed=1;" parent="1" source="step_cloud" target="asset_loader" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="640" />
+              <mxPoint x="420" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_cam_cv" value="帧数据输入" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0ea5e9;strokeWidth=2;" parent="1" source="camera_feed" target="group_cv" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_cv_render" value="输出位姿矩阵 (Matrix)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#16a34a;strokeWidth=3;" parent="1" source="pose_calc" target="scene_graph" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_render_canvas" value="绘制画面" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#16a34a;strokeWidth=2;" parent="1" source="webgl_core" target="ar_canvas" edge="1">
+          <mxGeometry x="0.2558" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_data_engine" value="实例化模型" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#9333ea;strokeWidth=1;" parent="1" source="model_pool" target="group_render" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_data_cv" value="加载特征库" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#9333ea;strokeWidth=1;" parent="1" source="config_db" target="group_cv" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
