@@ -1,0 +1,132 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="专业企业级架构模板" id="arch-template-pro-01">
+    <mxGraphModel dx="300" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#F5F7FA" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg_zone_public" value="Public Zone (接入层)" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=1;horizontalStack=0;connectable=0;fillColor=#E3E8EE;strokeColor=#B0B8C3;fontColor=#333333;rounded=1;arcSize=10;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="240" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="cdn_waf" value="CDN / WAF&#xa;(Cloudflare/Akamai)" style="shape=mxgraph.aws4.cloudfront;resIcon=mxgraph.aws4.cloudfront;fillColor=#F58534;strokeColor=none;html=1;fontColor=#333333;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;shadow=1;" parent="bg_zone_public" vertex="1">
+          <mxGeometry x="70" y="50" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lb_public" value="Public Load Balancer&#xa;(Nginx / ALB)" style="shape=mxgraph.aws4.elastic_load_balancing;resIcon=mxgraph.aws4.elastic_load_balancing;fillColor=#D9A74A;strokeColor=none;html=1;fontColor=#333333;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;shadow=1;" parent="bg_zone_public" vertex="1">
+          <mxGeometry x="70" y="250" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_zone_app" value="Private Zone (应用层 - VPC)" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=1;horizontalStack=0;connectable=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;rounded=1;arcSize=10;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="120" width="320" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="app_cluster_container" value="App Server Cluster (K8s Nodes / EC2)" style="group;rounded=1;shadow=0;sketch=0;glass=0;fillColor=none;strokeColor=#999999;dashed=1;" parent="bg_zone_app" vertex="1" connectable="0">
+          <mxGeometry x="40" y="60" width="240" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="app_server_1" value="App Service A&#xa;(API Gateway)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;fontColor=#333333;gradientColor=#f5faff;shadow=1;arcSize=20;" parent="app_cluster_container" vertex="1">
+          <mxGeometry x="20" y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="app_server_2" value="Microservice B&#xa;(Business Logic)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;fontColor=#333333;gradientColor=#f5faff;shadow=1;arcSize=20;" parent="app_cluster_container" vertex="1">
+          <mxGeometry x="20" y="140" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="app_server_3" value="Microservice C&#xa;(Worker)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;fontColor=#333333;gradientColor=#f5faff;shadow=1;arcSize=20;" parent="app_cluster_container" vertex="1">
+          <mxGeometry x="130" y="140" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_queue" value="Message Queue&#xa;(Kafka/RabbitMQ)" style="shape=mxgraph.aws4.queue;resIcon=mxgraph.aws4.queue;fillColor=#AD688A;strokeColor=none;html=1;fontColor=#333333;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;shadow=1;" parent="app_cluster_container" vertex="1">
+          <mxGeometry x="70" y="250" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_appA_appB" value="gRPC/REST" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" parent="app_cluster_container" source="app_server_1" target="app_server_2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_appA_appC" value="Async Task" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" parent="app_cluster_container" source="app_server_1" target="app_server_3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="175" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_appB_queue" value="Publish" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#AD688A;" parent="app_cluster_container" source="app_server_2" target="msg_queue" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_queue_appC" value="Subscribe" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#AD688A;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="app_cluster_container" source="msg_queue" target="app_server_3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="175" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bg_zone_data" value="Data Zone (数据持久层)" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=1;horizontalStack=0;connectable=0;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#333333;rounded=1;arcSize=10;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="720" y="120" width="320" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="db_master" value="Primary DB&#xa;(PostgreSQL/MySQL)" style="shape=mxgraph.aws4.rds;resIcon=mxgraph.aws4.rds;fillColor=#3F8624;strokeColor=none;html=1;fontColor=#FFFFFF;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;shadow=1;" parent="bg_zone_data" vertex="1">
+          <mxGeometry x="40" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="db_slave" value="Read Replica DB&#xa;(Standby)" style="shape=mxgraph.aws4.rds;resIcon=mxgraph.aws4.rds;fillColor=#6EA65B;strokeColor=none;html=1;fontColor=#333333;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;shadow=1;dashed=1;" parent="bg_zone_data" vertex="1">
+          <mxGeometry x="40" y="250" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cache_redis" value="Distributed Cache&#xa;(Redis Cluster)" style="shape=mxgraph.aws4.elasticache;resIcon=mxgraph.aws4.elasticache;fillColor=#C72C35;strokeColor=none;html=1;fontColor=#FFFFFF;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;shadow=1;" parent="bg_zone_data" vertex="1">
+          <mxGeometry x="200" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obj_storage" value="Object Storage&#xa;(S3 / OSS)" style="shape=mxgraph.aws4.s3;resIcon=mxgraph.aws4.s3;fillColor=#E05243;strokeColor=none;html=1;fontColor=#333333;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;shadow=1;" parent="bg_zone_data" vertex="1">
+          <mxGeometry x="200" y="250" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_db_sync" value="Replication (Async)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#3F8624;dashed=1;" parent="bg_zone_data" source="db_master" target="db_slave" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user_icon" value="Users / Clients" style="shape=mxgraph.signs.people.users_3;html=1;fillColor=#5C6BC0;strokeColor=none;fontColor=#FFFFFF;verticalLabelPosition=bottom;verticalAlign=top;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_user_cdn" value="HTTPS / Inte net" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#5C6BC0;dashed=1;" parent="1" source="user_icon" target="cdn_waf" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="140" />
+              <mxPoint x="180" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_cdn_lb" value="Filtered Traffic" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#F58534;" parent="1" source="cdn_waf" target="lb_public" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_lb_app" value="Load Balanced Requests" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#D9A74A;" parent="1" source="lb_public" target="app_server_1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="400" />
+              <mxPoint x="340" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_appB_db" value="Read/Write" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#3F8624;" parent="1" source="app_server_2" target="db_master" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_appC_db" value="Write Result" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#3F8624;" parent="1" source="app_server_3" target="db_master" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="350" />
+              <mxPoint x="660" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_appA_cache" value="Cache Hit/Miss" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#C72C35;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="app_server_1" target="cache_redis" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="225" />
+              <mxPoint x="690" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_appC_s3" value="Store Assets" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#E05243;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="app_server_3" target="obj_storage" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="375" />
+              <mxPoint x="640" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
