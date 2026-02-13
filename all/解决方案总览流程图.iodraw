@@ -16,17 +16,14 @@
         <mxCell id="s_campus" value="校园活动/展演现场&lt;br/&gt;（海报物料/导览牌）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="220" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="s_entry" value="进入小程序&lt;br/&gt;（扫码/搜索/分享打开）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;direction=south;" parent="1" vertex="1">
-          <mxGeometry x="395" y="90" width="70" height="240" as="geometry" />
+        <mxCell id="s_entry" value="进入小程序&lt;br/&gt;（扫码/搜索/分享打开）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="310" y="175" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="s_home" value="内容与导览&lt;br/&gt;首页/Tab：百科｜挑战｜涂装｜预约｜我的&lt;br/&gt;pages/wiki、pages/face、pages/diy、pages/market" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="165" width="270" height="90" as="geometry" />
         </mxCell>
         <mxCell id="s_ar" value="AR ????&lt;br/&gt;??????? Canvas ?3D?????? kivicube ?????? AR ???&lt;br/&gt;???pages/ar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="160" width="220" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="s_pre" value="kivicube ??????????&lt;br/&gt;1?? kivicube ??? 3D ??&lt;br/&gt;2???????Marker?&lt;br/&gt;3???????? 3D ????" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#D0C7B8;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;align=left;verticalAlign=top;spacing=10;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="280" width="220" height="120" as="geometry" />
         </mxCell>
         <mxCell id="s_detect" value="识别成功？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="420" width="180" height="90" as="geometry" />
@@ -118,8 +115,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="se_pre" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=none;html=1;strokeWidth=2;strokeColor=#D0C7B8;dashed=1;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="s_ar" target="s_pre" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="se_pre" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=none;html=1;strokeWidth=2;strokeColor=#D0C7B8;dashed=1;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="s_ar" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
