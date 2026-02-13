@@ -22,7 +22,7 @@
         <mxCell id="s_home" value="内容与导览&lt;br/&gt;首页/Tab：百科｜挑战｜涂装｜预约｜我的&lt;br/&gt;pages/wiki、pages/face、pages/diy、pages/market" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="165" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="s_ar" value="AR ????&lt;br/&gt;??????? Canvas ?3D?????? kivicube ?????? AR ???&lt;br/&gt;???pages/ar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+        <mxCell id="s_ar" value="启动kivicube AR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="160" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="s_detect" value="识别成功？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
