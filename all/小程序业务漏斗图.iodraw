@@ -11,7 +11,7 @@
           <mxGeometry x="40" y="58" width="1080" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fc" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#D0C7B8;strokeWidth=2;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="135" y="88" width="890" height="600" as="geometry" />
+          <mxGeometry x="225" y="114" width="890" height="600" as="geometry" />
         </mxCell>
         <mxCell id="f1" value="拉新（Awareness / Acquisition）来源：短视频/达人种草｜校园活动/展演现场｜用户分享&amp;nbsp; 落地：pages/index、pages/wiki、pages/face、pages/diy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="255" y="160" width="830" height="95" as="geometry" />
