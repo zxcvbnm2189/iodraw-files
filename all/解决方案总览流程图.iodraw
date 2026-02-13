@@ -11,7 +11,7 @@
           <mxGeometry x="40" y="58" width="1080" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s_short" value="短视频/达人种草&lt;br/&gt;（跳转/二维码/搜索）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="130" width="220" height="70" as="geometry" />
+          <mxGeometry x="40" y="140" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="s_campus" value="校园活动/展演现场&lt;br/&gt;（海报物料/导览牌）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="220" width="220" height="70" as="geometry" />
