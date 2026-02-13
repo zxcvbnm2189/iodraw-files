@@ -22,7 +22,7 @@
         <mxCell id="f3" value="留存（Retention）\n机制：签到连签奖励（signInStore）｜内容连续消费（wiki 图谱/列表/详情）\n互动：收藏/随机搭配/海报导出（face/diy）｜测验与错题回访（wiki/quiz）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="355" y="350" width="630" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="f4" value="转化（Conversion）\n触发：市集浏览 → 选择演出/研学/票务/文创/套票 → 确认预约/下单\n页面：pages/market、pages/goods/detail、pages/booking（核销二维码）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;shadow=1;" parent="1" vertex="1">
+        <mxCell id="f4" value="转化（Conversion）触发：市集浏览 → 选择演出/研学/票务/文创/套票 → 确认预约/下单页面：pages/market、pages/goods/detail、pages/booking（核销二维码）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="405" y="455" width="530" height="95" as="geometry" />
         </mxCell>
         <mxCell id="f5" value="复购（Repurchase）\n路径：订单/预约管理 → 物流/核销完成 → 再次购买/预约\n页面：pages/orders、pages/booking、pages/user（积分/等级）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#2C4C66;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#2E2E2E;align=center;verticalAlign=middle;shadow=1;" parent="1" vertex="1">
