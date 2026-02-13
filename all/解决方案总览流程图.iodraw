@@ -22,32 +22,32 @@
         <mxCell id="s_home" value="内容与导览&lt;br/&gt;首页/Tab：百科｜挑战｜涂装｜预约｜我的&lt;br/&gt;pages/wiki、pages/face、pages/diy、pages/market" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=12;spacing=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="165" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="s_ar" value="启动kivicube AR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
+        <mxCell id="s_ar" value="启动kivicube AR" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=12;fontStyle=1;spacing=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="160" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="s_detect" value="识别成功？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="930" y="420" width="180" height="90" as="geometry" />
+          <mxGeometry x="930" y="320" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="s_3d" value="展示/交互 3D 视觉效果&lt;br/&gt;（模型旋转/观看/引导文案）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E2E2E;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="420" width="270" height="80" as="geometry" />
+          <mxGeometry x="600" y="320" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="s_fail" value="识别失败兜底&lt;br/&gt;（提示更换光线/距离&lt;br/&gt;引导进入百科/挑战/涂装）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#D0C7B8;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="545" width="220" height="90" as="geometry" />
+          <mxGeometry x="910" y="445" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="s_guide" value="转化引导&lt;br/&gt;（内容→兴趣→商品/票券）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="420" width="240" height="80" as="geometry" />
+          <mxGeometry x="310" y="320" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="s_shop" value="商城转化&lt;br/&gt;市集浏览 → 商品详情 → 下单&lt;br/&gt;pages/market → pages/goods/detail → pages/orders" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="560" width="300" height="90" as="geometry" />
+          <mxGeometry x="80" y="460" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="s_book" value="预约转化&lt;br/&gt;选择项目/场次 → 提交预约 → 二维码核销&lt;br/&gt;pages/market → pages/booking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2C4C66;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="570" width="300" height="90" as="geometry" />
+          <mxGeometry x="420" y="470" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="s_user" value="用户中心沉淀&lt;br/&gt;登录态/头像/等级&lt;br/&gt;积分签到（连签奖励）&lt;br/&gt;pages/user + utils/signInStore" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EA;strokeColor=#2E2E2E;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="760" y="660" width="370" height="90" as="geometry" />
+          <mxGeometry x="760" y="560" width="370" height="90" as="geometry" />
         </mxCell>
         <mxCell id="s_loop" value="分享回流&lt;br/&gt;（带来新拉新）" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F3F1EA;strokeColor=#8D2A2A;strokeWidth=2;fontSize=12;fontColor=#2E2E2E;spacing=10;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="690" width="180" height="60" as="geometry" />
+          <mxGeometry x="80" y="590" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="se1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="s_short" target="s_entry" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -75,10 +75,10 @@
         </mxCell>
         <mxCell id="se9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" target="s_guide" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="585" as="targetPoint" />
-            <mxPoint x="900" y="570" as="sourcePoint" />
+            <mxPoint x="620" y="485" as="targetPoint" />
+            <mxPoint x="900" y="470" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="430" y="560" />
+              <mxPoint x="430" y="460" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -93,17 +93,17 @@
         </mxCell>
         <mxCell id="se13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#2E2E2E;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="s_book" target="s_user" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="705" as="targetPoint" />
+            <mxPoint x="820" y="605" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="900" y="560" />
+              <mxPoint x="900" y="460" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="se14" value="复访/复购" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;html=1;strokeWidth=2;strokeColor=#8D2A2A;fontSize=11;fontColor=#8D2A2A;orthogonalLoop=1;jettySize=auto;shadow=1;" parent="1" source="s_user" target="s_shop" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="580" y="745" />
-              <mxPoint x="230" y="745" />
+              <mxPoint x="580" y="645" />
+              <mxPoint x="230" y="645" />
             </Array>
           </mxGeometry>
         </mxCell>
